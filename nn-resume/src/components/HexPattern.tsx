@@ -1,4 +1,3 @@
-import React from "react";
 interface HexPatternProps {
   color?: string;
   opacity?: number;

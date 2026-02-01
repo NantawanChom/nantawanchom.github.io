@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Hexagon } from "lucide-react";
 import { HexPattern } from "./HexPattern";

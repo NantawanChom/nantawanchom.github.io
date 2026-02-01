@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "pnpm run build && cd .. && git add dist && git commit -m 'Update build' && git push"
   },
   "dependencies": {
     "framer-motion": "12.29.2",
